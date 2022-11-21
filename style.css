@@ -152,7 +152,7 @@ section.slider {
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    background-image: linear-gradient(to bottom, rgba(14, 165, 233, 0.40), rgba(14, 165, 233, 0.40)), url("https://isic.ir/wp-content/uploads/2019/07/amirkabir-university.jpg");
+    background-image: linear-gradient(to bottom, rgba(14, 165, 233, 0.60), rgba(14, 165, 233, 0.60)), url("https://cdn.balad.ir/crowd-images/all/original/b7454c6e5a984782b677993f161bc720-20220822_234811.jpg?x-img=v1/crop,x_0,y_482,w_1440,h_810/autorotate");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -275,8 +275,9 @@ section.information {
     color: white;
     width: 100%;
     height: 550px;
-    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(2, 132, 199, 0.73)), url('https://isic.ir/wp-content/uploads/2019/07/amirkabir-university.jpg');
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(2, 132, 199, 0.73)), url('https://cdn.balad.ir/crowd-images/all/original/f8fa33dcc7aa4bff8e09b3a8bfa47556-20220822_234734.jpg?x-img=v1/format,type_webp,lossless_false/autorotate');
     background-size: cover;
+    background-position: left;
     display: flex;
     justify-content: center;
 }
