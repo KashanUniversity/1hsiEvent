@@ -235,7 +235,9 @@ section.introduction ul {
     margin-top: 15px;
 }
 section.introduction ul li {
-    width: 50%;
+    width: 48%;
+    margin-left: 1%;
+    margin-right: 1%;
     float: right;
     flex-direction: row;
     align-items: center;
@@ -248,6 +250,24 @@ section.introduction ul li svg {
 }
 section.introduction ul li label {
     color: black;
+}
+
+/* team */
+section.team {
+    width: 100%;
+    height: auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: rgb(243, 244, 246);
+}
+section.team ul {
+    margin-right: 15px;
+}
+section.team ul li {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style: circle;
 }
 
 /* information */
