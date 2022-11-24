@@ -6,4 +6,6 @@
 
 **Demo:** http://1hsi.kashanu.ac.ir/
 
+All the code is written by me, but the UI is heavily modeled on the Iran International Group Theory Conference.
+
 © Copyright Max Base, 2022
