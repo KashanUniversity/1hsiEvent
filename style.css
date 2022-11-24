@@ -110,10 +110,13 @@ header .content {
     padding-top: 12px;
     padding-bottom: 12px;
     justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+    gap: 20px;
 }
 header .logo {
-    width: auto;
-    margin-left: 10px;
+    width: 100%;
+    height: auto;
 }
 header .logo h1 {
     font-size: 16px;
@@ -128,7 +131,8 @@ header nav {
     gap: 15px;
 }
 header a.button {
-    width: 100px;
+    width: 140px;
+    min-height: 40px;
     height: auto;
     color: white;
     text-align: center;
