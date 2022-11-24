@@ -311,6 +311,9 @@ section.information ul li .details {
     display: flex;
     flex-direction: column;
 }
+section.information ul li .details p {
+    font-size: 14px;
+}
 section.information ul li svg {
     width: 50px;
 }
