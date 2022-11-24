@@ -190,11 +190,11 @@ section.supporters h5 {
 section.supporters ul {
     width: 100%;
     height: auto;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
 }
 section.supporters ul li {
-    width: 25%;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -369,6 +369,9 @@ footer hr {
     .container {
         width: 85%;
     }
+    section.supporters ul {
+        grid-template-columns: 33% 33% 33%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -390,5 +393,8 @@ footer hr {
     section.introduction .col:first-child,
     section.introduction .col:last-child {
         width: 100%;
+    }
+    section.supporters ul {
+        grid-template-columns: 50% 50%;
     }
 }
