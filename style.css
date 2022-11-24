@@ -156,7 +156,7 @@ section.slider {
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    background-image: linear-gradient(to bottom, rgba(14, 165, 233, 0.60), rgba(14, 165, 233, 0.60)), url("https://cdn.balad.ir/crowd-images/all/original/b7454c6e5a984782b677993f161bc720-20220822_234811.jpg?x-img=v1/crop,x_0,y_482,w_1440,h_810/autorotate");
+    background-image: linear-gradient(to bottom, rgba(14, 165, 233, 0.80), rgba(0, 0, 0, 0.60)), url("https://cdn.balad.ir/crowd-images/all/original/b7454c6e5a984782b677993f161bc720-20220822_234811.jpg?x-img=v1/crop,x_0,y_482,w_1440,h_810/autorotate");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -169,7 +169,8 @@ section.slider h1 b {
     color: white;
 }
 section.slider h1 {
-    color: rgb(14, 165, 233);
+    /* color: rgb(14, 165, 233); */
+    color: yellow;
     font-size: 50px;
     margin-bottom: 10px;
 }
