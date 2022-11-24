@@ -177,23 +177,25 @@ section.slider h2 {
 section.supporters {
     width: 100%;
     height: auto;
-    background-color: rgb(243, 244, 246);
+    background-color: white;
     text-align: center;
     padding-top: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 45px;
 }
 section.supporters h5 {
     font-size: 16px;
-    color: rgb(107, 114, 128)
+    color: rgb(107, 114, 128);
+    margin-bottom: 40px;
 }
 section.supporters ul {
     width: 100%;
+    height: auto;
     display: flex;
     flex-direction: row;
 }
 section.supporters ul li {
     width: 25%;
-    height: 140px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -212,6 +214,9 @@ section.supporters ul li label {
 section.introduction {
     width: 100%;
     height: auto;
+    background-color: rgb(243, 244, 246);
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 section.introduction .row {
     width: 100%;
