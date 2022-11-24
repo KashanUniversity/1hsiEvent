@@ -355,7 +355,10 @@ footer ul li {
     flex-direction: row;
     line-height: 35px;
     align-items: center;
-    /* justify-content: center; */
+    color: black;
+}
+footer ul li a {
+    color: inherit;
 }
 footer ul li svg {
     width: 25px;
