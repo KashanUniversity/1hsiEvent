@@ -414,4 +414,21 @@ footer hr {
     section.supporters ul {
         grid-template-columns: 50% 50%;
     }
+    section.slider h1 {
+        font-size: 30px;
+    }
+    section.slider h2 {
+        font-size: 20px;
+    }
+}
+@media (max-width: 425px) {
+    .container {
+        width: 95%;
+    }
+    section.slider h1 {
+        font-size: 25px;
+    }
+    section.slider h2 {
+        font-size: 15px;
+    }
 }
