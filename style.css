@@ -420,6 +420,9 @@ footer hr {
     section.slider h2 {
         font-size: 20px;
     }
+    header a.button {
+        display: none;
+    }
 }
 @media (max-width: 425px) {
     .container {
