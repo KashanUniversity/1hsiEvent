@@ -203,6 +203,7 @@ section.supporters ul {
     height: auto;
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
+    justify-content: center;
 }
 section.supporters ul li {
     width: 100%;
