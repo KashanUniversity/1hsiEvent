@@ -246,20 +246,11 @@ section.introduction .col:last-child {
     width: 60%;
 }
 section.introduction ul {
-    width: 100%;
+    display: flex;
+    flex-direction: column;
     height: auto;
-    float: right;
-    margin-top: 15px;
-}
-section.introduction ul li {
-    width: 48%;
-    margin-left: 1%;
-    margin-right: 1%;
-    float: right;
-    flex-direction: row;
-    align-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-top: 24px;
+    line-height: 45px;
 }
 section.introduction ul li svg {
     width: 20px;
